@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Easy Access Launcher</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+     <style>
+       body,html{
+         font-family:'Open Sans' , sans-serif;
+         font-size:14px;
+         margin:0;
+         min-height:180px;
+         padding:0;
+         width:384px;
+       }
+
+       h1{
+         font-family: 'Menlo', monospace;
+         font-size :22px;
+         font-weight:400;
+         margin:0;
+         color:#dc143c;
+       }
+
+       a:link, a:visited{
+         color:black;
+         outline:0;
+         text-decoration:none;
+       }
+
+       a:hover{
+         color:#dc143c;
+       }
+
+
+
+       img{
+         width:30px;
+       }
+
+       .modal-header{
+         align-items:center;
+         border-bottom:0.5px solid  #dadada;
+       }
+
+       .modal-content{
+         padding:0 22px;
+       }
+
+       .modal-icons{
+         border-top:0.5px solid #dadada;
+         height:50px;
+         width:100%;
+       }
+
+       .logo{
+         padding:16px;
+       }
+
+       .logo-icon:{
+         vertical-align:text-bottom;
+         margin:right:12px;
+       }
+
+       .version{
+         color:#dc143c;
+         font-size:18px;
+       }
+
+       .flex-container{
+         display:flex;
+         justify-content:space-between;
+         padding:10px 22px;
+       }
+
+       .flex{
+         opacity:1;
+         transition:opacity 0.2s ease-in-out;
+         width:120px;
+
+       }
+
+       .flex:hover{
+         opacity:0.4;
+       }
+
+       .flex .fab{
+         font-size:40px;
+         color: #cd5c5c;
+       }
+
+
+
+
+     </style>
+
+
+
+  </head>
+  <body>
+    <div class="modal-header">
+      <h1 class="logo">
+        <img src="icons and images/icon-150.png" alt="Eal-logo" class="logo-icon"> Easy Access Launcher
+        <span class="version">(1.0.0)</span>
+      </h1>
+
+    </div>
+    <div class="modal-content">
+      <p>Get quick access to shorcuts</p>
+
+    </div>
+
+    <div class="modal-icons">
+      <div class="flex-container">
+
+        <div class="flex">
+          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+
+        <div class="flex">
+          <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+
+        <div class="flex">
+          <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+
+        <div class="flex">
+          <a href="https://telegram.org/" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+        </div>
+
+        <div class="flex">
+          <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+
+      </div>
+    </div>
+   <script type="text/javascript" src="popup.js">
+
+   </script>
+  </body>
+</html>
